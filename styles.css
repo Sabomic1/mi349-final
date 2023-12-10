@@ -1,0 +1,122 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #053005;
+}
+
+header {
+    background-color: #021b03;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+header img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    max-width: 100px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-align: center;
+}
+section {
+    color: #fff;
+}
+
+
+section a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.post {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #011401;
+    border-radius: 5px;
+    background-color: #053005;
+}
+
+.post-content {
+    text-align: left;
+}
+
+.post-content p {
+    text-indent: 40px;
+}
+
+.category {
+    text-align: left;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #fff;
+    color: #053005;
+    border: none;
+    border-radius: 3px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #053005;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
